@@ -1,0 +1,18 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+		{
+      "Action": "EditData",
+      "LogName": "Candy Cap Location Data",
+      "Target": "Data/Locations",
+      "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Woods", 3],//winter woods forage
+         "Value": "{{spacechase0.JsonAssets/ObjectId:Candy Cap Mushroom}} .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+  ]
+  }
+]
+}

@@ -1,0 +1,8 @@
+﻿[
+    { // All lines that have a default value can be removed and that value will be used.
+        "ProducerName": "Candy Cap Mushroom Box", //Name of the producer. Required.
+        "MinutesUntilReady": 1200, //The amount of minutes it takes to produce. Stardew days have 1600 minutes. 1200 minutes from 6 am to 2am and 400 minutes from 2am to 6am. Should be divisible by 10. Required.
+        "OutputIdentifier": "Candy Cap Mushroom", //The identifier of the output. Can be the Index or the Name of the object. Required.
+        "KeepInputQuality": true
+    }
+]

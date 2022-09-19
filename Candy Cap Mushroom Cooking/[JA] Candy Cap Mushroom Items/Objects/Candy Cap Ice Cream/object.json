@@ -1,0 +1,45 @@
+{
+	"Name": "Candy Cap Ice Cream",
+	"Description": "This ice cream is extra rich thanks to syrup and egg yolks.",
+	"Category": "Cooking",
+	"Edibility": 96,
+	"Price": 720,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Milk",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Sugar",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Egg",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Maple Syrup",
+            "Count": 1,
+        },  
+],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 3600,  
+  },
+     "GiftTastes":
+    {
+        "Love": ["Demetrius"],
+        "Like": ["Leah", "Linus", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Sam"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}

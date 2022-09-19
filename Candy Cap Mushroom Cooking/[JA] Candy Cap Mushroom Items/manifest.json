@@ -1,0 +1,10 @@
+{
+	"Name": "[JA] Candy Cap Mushroom Items",
+	"Author": "StarAmy",
+	"Version": "1.0.0",
+	"Description": "Adds one new desert mushroom, one new bigcraftable producer, and several new cooking recipes.",
+	"UniqueID": "StarAmy.CandyCaps",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

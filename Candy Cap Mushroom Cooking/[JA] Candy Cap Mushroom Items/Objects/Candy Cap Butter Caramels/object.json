@@ -1,0 +1,41 @@
+{
+	"Name": "Candy Cap Butter Caramels",
+	"Description": "They melt in your mouth far too quickly.",
+	"Category": "Cooking",
+	"Edibility": 85,
+	"Price": 675,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Milk",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Maple Syrup",
+            "Count": 1,
+        },
+        {
+            "Object": "Sugar",
+            "Count": 1,
+        },
+    ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 3375,  
+   },
+     "GiftTastes":
+    {
+        "Love": ["Demetrius"],
+        "Like": ["Leah", "Linus", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Harvey"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}

@@ -1,0 +1,59 @@
+{
+	"Name": "Candy Cap Cake",
+	"Description": "A rich cake tasting faintly of maple.",
+	"Category": "Cooking",
+	"Edibility": 80,
+	"Price": 565,
+	"IsColored": false,
+     "EdibleBuffs": 
+         {
+            "Farming": 1,
+            "Fishing": 0,
+            "Mining": 0,
+            "Luck": 1,
+            "Duration": 0,
+            "Foraging": 0,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Milk",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Wheat Flour",
+            "Count": 1,
+        },
+        {
+            "Object": "Sugar",
+            "Count": 1,
+        },
+       	{
+            "Object": "Egg",
+            "Count": 1,
+        },  
+  ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 2825,  
+   },
+     "GiftTastes":
+    {
+        "Love": ["Robin"],
+        "Like": ["Leah", "Linus", "Demetrius", "Wizard", "Gus", "Jodi", "Sam", "Harvey"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}

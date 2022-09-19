@@ -1,0 +1,56 @@
+{
+	"Name": "Candy Cap Mead Cocktail",
+	"Description": "Earthy and sweet, and warms you to the core.",
+	"Category": "Cooking",
+	"Edibility": 96,
+	"Price": 700,
+	"IsColored": false,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 0,
+            "Mining": 0,
+            "Luck": 2,
+            "Duration": 0,
+            "Foraging": 1,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Maple Syrup",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Mead",
+            "Count": 1,
+        },
+        {
+            "Object": "Ginger Ale",
+            "Count": 1,
+        }
+],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 3500,  
+     },
+     "GiftTastes":
+    {
+        "Love": ["Wizard"],
+        "Like": ["Leah", "Linus", "Harvey", "Demetrius", "Robin", "Gus", "Jodi", "Sam"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}

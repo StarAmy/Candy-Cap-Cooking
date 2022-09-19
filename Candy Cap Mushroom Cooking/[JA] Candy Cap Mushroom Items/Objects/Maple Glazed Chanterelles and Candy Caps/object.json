@@ -1,0 +1,51 @@
+{
+	"Name": "Maple Glazed Chanterelles and Candy Caps",
+	"Description": "Candy caps and friends lightly glazed and carmelized in syrup.",
+	"Category": "Cooking",
+	"Edibility": 96,
+	"Price": 660,
+	"IsColored": false,
+     "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 0,
+            "Mining": 0,
+            "Luck": 1,
+            "Duration": 0,
+            "Foraging": 1,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 1,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Chanterelle",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Maple Syrup",
+            "Count": 1,
+        }
+      ],
+	    "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 3300,
+              },  
+  "GiftTastes":
+    {
+        "Love": ["Linus"],
+        "Like": ["Leah", "Harvey", "Demetrius", "Robin", "Wizard", "Gus", "Jodi", "Sam"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}

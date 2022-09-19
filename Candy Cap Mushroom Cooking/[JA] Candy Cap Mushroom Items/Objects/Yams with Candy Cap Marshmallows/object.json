@@ -1,0 +1,33 @@
+{
+	"Name": "Yams with Candy Cap Marshmallows",
+	"Description": "A woodsy twist on a fall classic.",
+	"Category": "Cooking",
+	"Edibility": 80,
+	"Price": 550,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Candy Cap Marshmallows",
+            "Count": 1,
+        },
+        {
+            "Object": "Yam",
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 2750,  
+  },
+     "GiftTastes":
+    {
+        "Love": ["Linus"],
+        "Like": ["Leah", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Demetrius"],
+        "Neutral": ["Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley", "Sebastian"],
+        "Dislike": ["Maru", "Krobus", "Leo", "Willy"],
+    },
+}
